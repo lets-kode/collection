@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="867e8f13-c53d-40eb-8fdd-425d7cf17c49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="867e8f13-c53d-40eb-8fdd-425d7cf17c49" name="Changes" comment="TopK&lt;String&gt; first cut implementation." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,6 +133,14 @@
       <option name="presentableId" value="Default" />
       <updated>1697684751089</updated>
     </task>
+    <task id="LOCAL-00001" summary="TopK&lt;String&gt; first cut implementation.">
+      <created>1697687895178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697687895178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,5 +153,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TopK&lt;String&gt; first cut implementation" />
+    <MESSAGE value="TopK&lt;String&gt; first cut implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="TopK&lt;String&gt; first cut implementation." />
   </component>
 </project>
