@@ -12,14 +12,11 @@ public class OnlineMean {
         } else {
             minHeap.add(num);
         }
-        if (minHeap.isEmpty()) {
-            return maxHeap.element();
-        }
 
-        if (minHeap.element() < maxHeap.element()) {
-            int tmp = minHeap.remove();
-            minHeap.add(maxHeap.remove());
-            maxHeap.add(tmp);
+        // fix if needed.
+        if (!minHeap.isEmpty() && minHeap.element() < maxHeap.element()) {
+           maxHeap.add(minHeap.remove());
+           minHeap.add(maxHeap.remove());
         }
 
         if (maxHeap.size() == minHeap.size()) {
